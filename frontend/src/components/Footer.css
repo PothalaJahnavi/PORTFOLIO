@@ -1,0 +1,9 @@
+footer {
+    text-align: center;
+    padding: 70px;
+    margin-top: 50px;
+  }
+  footer i {
+    margin: 5px;
+    color:orange;
+  }

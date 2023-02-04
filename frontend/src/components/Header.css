@@ -1,0 +1,83 @@
+a{
+    color: rgb(206, 208, 210);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
+
+}
+a:hover{
+    color:#3CCF4E;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+header{
+    height: 10vh;
+    background-color: rgb(24, 23, 23);
+    line-height: 10vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right:0;
+    width: 100%;
+    z-index: 999;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+}
+button {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    background-color: rgb(8, 7, 7);
+    color:white;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+header {
+    background-color:rgb(23, 20, 20) ;
+    height: 10vh;
+    line-height: 10vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  header a {
+    margin-left: 40px;
+  }
+  .toggle {
+    cursor: pointer;
+    color: white;
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    header .nav {
+      display: none;
+    }
+    header a {
+      width: 100%;
+      display: block;
+      color: white;
+    }
+    .toggle {
+      display: block;
+      font-size: 30px;
+      background: none;
+    }
+    .hideMenu {
+      display: block;
+      position: absolute;
+      top: 10vh;
+      left: 0;
+      width: 100%;
+      background-color:#3CCF4E;
+    }
+  }

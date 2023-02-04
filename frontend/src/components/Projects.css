@@ -1,0 +1,25 @@
+.projects img {
+    width: 100%;
+    /* height:100%; */
+  }
+  .projects .box2 {    
+    border-radius: 10px;
+    background-color:rgb(34, 32, 32);
+  }
+  .projects .text {
+    padding: 10px 30px;
+  }
+ .projects{
+  display: flex;
+    align-items: center;
+ }
+ .project-btn{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 30%;
+ }
+ .project-btn:hover{
+  background-color: #3CCF4E;
+ }
+ 

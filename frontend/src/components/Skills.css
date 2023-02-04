@@ -1,0 +1,9 @@
+.all-skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap:20px;
+}
+.one img{
+    width:120px;
+    height: 100px;
+}
