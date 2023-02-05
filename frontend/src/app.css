@@ -17,10 +17,10 @@ h6 {
 
 
 @media screen and (max-width: 768px) {
-  .hero {
-    height: 60vh;
+  
+  .main-head{
+    font-size:15px;
   }
- 
   section {
     height: auto;
     padding-top: 50px;

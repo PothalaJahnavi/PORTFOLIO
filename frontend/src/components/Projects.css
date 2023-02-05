@@ -22,4 +22,12 @@
  .project-btn:hover{
   background-color: #3CCF4E;
  }
- 
+ @media screen and (max-width:768px)
+ {
+  .project-btn{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 20%;
+   }
+ }

@@ -16,3 +16,18 @@
     border-radius: 5px;
     background-color: orange;
   }
+  @media screen and (max-width:768px){
+    .contact input,.contact textarea {
+      width: 80%;
+      padding: 20px;
+      border: none;
+      outline: none;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    .contact-button{
+      width:94%;
+      border-radius: 5px;
+      background-color: orange;
+    }
+  }

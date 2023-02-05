@@ -14,29 +14,29 @@ const Profiles = () => {
           icon:cc,
           name:"CodeChef",
           url:"https://www.codechef.com/users/jahnavi0405",
-          problems:"339",
-          rating:"1620"
+          problems:"364",
+          rating:"1625"
         },
         {
             icon:lc,
             name:"LeetCode",
             url:"https://leetcode.com/Pothala_Jahnavi/",
-            problems:"309",
+            problems:"336",
             rating:"1594"
         },
         {
             name:"HackerEarth",
             icon:he,
             url:"https://www.hackerearth.com/@pothala5",
-            problems:"16",
-            rating:"1380"
+            problems:"17",
+            rating:"1450"
         },
         {
             icon:hr,
             name:"HackerRank",
             url:"https://www.hackerrank.com/20L31A05J0",
             problems:"",
-            rating:"24270"
+            hacos:"24270"
         },
         {
             icon:gfg,
@@ -83,7 +83,9 @@ const Profiles = () => {
                     {
                        value.rating&&<p>Rating:<CountUp enableScrollSpy duration={2} end={value.rating}/></p>
                     }
-                  
+                     {
+                       value.hacos&&<p>Rating:<CountUp enableScrollSpy duration={2} end={value.hacos}/></p>
+                    }
                     <button className='profile-button'><a href={value.url} target="_blank">View Profile</a></button>
                 </div>
             )

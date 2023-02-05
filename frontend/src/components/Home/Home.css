@@ -8,7 +8,7 @@
     color: white;
 }
 section {
-    height: 90vh;
+    /* height: 90vh; */
     display: flex;
     align-items: center;
   }
@@ -35,4 +35,10 @@ section {
     font-weight: 600;
     color:#3CCF4E;
   }
-  
+  @media screen  and (max-width:768px){
+    .main h1 {
+      font-size: 40px;
+      font-weight: 500;
+      color:#3CCF4E;
+    }
+  }

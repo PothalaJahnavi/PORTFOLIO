@@ -26,14 +26,14 @@ const Footer = () => {
   ]
   return (
     <>
-    <footer>
+    <div className='footer'>
       {social.map((item) => (
         <>
         <a href={item.link}><i data-aos='zoom-in'>{item.icon}</i> </a>
         </>
       ))}
       <p data-aos='zoom-in'>@Copywrites Jahnavi ❤️ 2023</p>
-    </footer>
+    </div>
   </>
   )
 }
