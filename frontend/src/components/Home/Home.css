@@ -1,10 +1,10 @@
 .primaryBtn{
     background: none;
-    border:1px solid #3CCF4E;
+    border:1px solid #8ca6c6;
     border-radius:30px;
 }
 .primaryBtn:hover{
-    background-color: #3CCF4E;
+    background-color: #5d9ad3;
     color: white;
 }
 section {
@@ -15,6 +15,7 @@ section {
   .main
   {
     position: relative;
+    height:90vh;
   }
   .main::after {
     content: "";
@@ -33,12 +34,12 @@ section {
   .main h1 {
     font-size: 60px;
     font-weight: 600;
-    color:#3CCF4E;
+    color:#8ceae7;
   }
   @media screen  and (max-width:768px){
     .main h1 {
       font-size: 40px;
       font-weight: 500;
-      color:#3CCF4E;
+      color:#8ceae7;
     }
   }

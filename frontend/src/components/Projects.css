@@ -4,8 +4,13 @@
   }
   .projects .box2 {    
     border-radius: 10px;
-    background-color:rgb(34, 32, 32);
-  }
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);  }
   .projects .text {
     padding: 10px 30px;
   }
@@ -13,21 +18,23 @@
   display: flex;
     align-items: center;
  }
- .project-btn{
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin: 10% 30%;
- }
+ .profile-button{
+  background: none;
+  border:1px solid #8ca6c6;
+  border-radius:30px;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  }
  .project-btn:hover{
-  background-color: #3CCF4E;
+  background-color:#54c9ea;
+  color: black;
  }
  @media screen and (max-width:768px)
  {
-  .project-btn{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: 10% 20%;
-   }
+  .profile-button{
+    background: none;
+    border:1px solid #8ca6c6;
+    border-radius:30px;
+    margin-left: 20%;
+    }
  }

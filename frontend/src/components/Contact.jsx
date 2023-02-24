@@ -5,7 +5,7 @@ const Contact = () => {
     <>
     <section className='contact'>
         <div className='container'>
-         <h1 style={{textAlign:"center",fontSize:"35px",color:" #3CCF4E",fontWeight:"800"}}>Keep In Touch</h1> 
+         <h1 style={{textAlign:"center",fontSize:"35px",color:"orange",fontWeight:"800"}}>Keep In Touch</h1> 
           <div className='content'>
               <form action='https://formspree.io/f/mnqynpke' method="POST">
                   <input type='text' name="name" placeholder='Name'  data-aos='flip-left'/>

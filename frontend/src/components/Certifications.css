@@ -37,7 +37,11 @@ article {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:#3CCF4E;
+    color:black;
+    background-color:#030b20;
+   background: rgba(107, 151, 209, 0.2);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transition: 0.5s;
     z-index: -1;
@@ -45,6 +49,7 @@ article {
   article .box1:hover .overlay::after,
   article .box1:hover .overlay {
     opacity: 1;
+    color: #030b20;
   }
   .container .catButton {
     display: flex;

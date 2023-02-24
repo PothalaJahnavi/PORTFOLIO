@@ -29,7 +29,7 @@ const Experience = () => {
   };
   return (
     <>
-<h1 style={{textAlign:"center",fontSize:"35px",color:" #3CCF4E",fontWeight:"800"}}>My Works</h1>
+<h1 style={{textAlign:"center",fontSize:"35px",color:"orange",fontWeight:"800"}}>My Works</h1>
       <div className='testimonials hero'>
     <div className='container'>
       <Slider {...settings}>

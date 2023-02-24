@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(12, 11, 11);
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,10,113,1) 0%, rgba(6,38,133,1) 6%, rgba(0,212,255,1) 100%);
     color: rgb(248, 250, 252);
+    overflow-x: hidden;
 }
 h1,
 h2,

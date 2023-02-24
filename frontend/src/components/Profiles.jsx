@@ -22,7 +22,7 @@ const Profiles = () => {
             name:"LeetCode",
             url:"https://leetcode.com/Pothala_Jahnavi/",
             problems:"336",
-            rating:"1594"
+            rating:"1628"
         },
         {
             name:"HackerEarth",
@@ -63,7 +63,7 @@ const Profiles = () => {
   return (
    <>
     <section className='profile'>
-    <h1 style={{textAlign:"center",fontSize:"35px",color:" #3CCF4E",fontWeight:"800"}}>Profiles</h1>
+    <h1 style={{textAlign:"center",fontSize:"35px",color:"orange",fontWeight:"800"}}>Profiles</h1>
     <div className="container">
      <div className="profiles-container">
       {
@@ -84,7 +84,7 @@ const Profiles = () => {
                        value.rating&&<p>Rating:<CountUp enableScrollSpy duration={2} end={value.rating}/></p>
                     }
                      {
-                       value.hacos&&<p>Rating:<CountUp enableScrollSpy duration={2} end={value.hacos}/></p>
+                       value.hacos&&<p>Hacos:<CountUp enableScrollSpy duration={2} end={value.hacos}/></p>
                     }
                     <button className='profile-button'><a href={value.url} target="_blank">View Profile</a></button>
                 </div>

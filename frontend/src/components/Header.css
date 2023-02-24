@@ -6,7 +6,7 @@ a{
 
 }
 a:hover{
-    color:#3CCF4E;
+    color:#3caacf;
 }
 .container{
     max-width: 80%;
@@ -14,7 +14,8 @@ a:hover{
 }
 header{
     height: 10vh;
-    background-color: rgb(24, 23, 23);
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,10,113,1) 0%, rgba(6,38,133,1) 6%, rgb(59, 189, 215) 100%);
     line-height: 10vh;
     position: sticky;
     top: 0;
@@ -40,16 +41,6 @@ button {
     cursor: pointer;
   }
 
-header {
-    background-color:rgb(23, 20, 20) ;
-    height: 10vh;
-    line-height: 10vh;
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-  }
   header a {
     margin-left: 40px;
   }
@@ -78,6 +69,7 @@ header {
       top: 10vh;
       left: 0;
       width: 100%;
-      background-color:#3CCF4E;
+      background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,130,176,1) 0%, rgba(0,212,255,1) 100%);
     }
   }

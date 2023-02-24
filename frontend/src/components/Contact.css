@@ -14,8 +14,12 @@
   .contact-button{
     width:104%;
     border-radius: 5px;
-    background-color: orange;
-  }
+/* From https://css.glass */
+background: rgba(243, 243, 243, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);  }
   @media screen and (max-width:768px){
     .contact input,.contact textarea {
       width: 80%;
@@ -28,6 +32,11 @@
     .contact-button{
       width:94%;
       border-radius: 5px;
-      background-color: orange;
-    }
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);    }
   }

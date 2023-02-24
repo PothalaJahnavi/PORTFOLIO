@@ -78,7 +78,7 @@ const Certifications = () => {
     <>
   <article>
 <div className='container'>
-<h1 style={{textAlign:"center",fontSize:"35px",color:" #3CCF4E",fontWeight:"800"}}>Certifications</h1>  
+<h1 style={{textAlign:"center",fontSize:"35px",color:"orange",fontWeight:"800"}}>Certifications</h1>  
 <div className='catButton' style={{marginBottom:"30px"}}>
   {category.map((category) => (
               <button className='primaryBtn' onClick={() => filterItems(category)} >

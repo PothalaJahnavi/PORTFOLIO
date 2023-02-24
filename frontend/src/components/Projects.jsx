@@ -8,48 +8,57 @@ import target from '../assets/target.jpg';
 import qr from '../assets/qr.jpg';
 import library from '../assets/library.png';
 import weather from '../assets/weather.png';
+import editor from '../assets/editor.jpeg';
+
 import './Projects.css';
 const Projects = () => {
   const projects=[
     {
       title:"CRED Clone",
       cover:cred,
-      desc:"Cloned Cred which has the most facinating Ui using Reactjs.",
+      Technologies:"Reactjs,Css,Javascript",
+      desc:"Cloned Cred which has the most facinating Ui using Reactjs.Have used multiple libraries for some of the animations",
       view:"https://github.com/PothalaJahnavi/CRED-CLONE",
     },
     {
       title:"Restaurant",
       cover:restaurant,
-      desc:"It is a full stack application.It also contains api integration.Built using MERN stack.",
+      Technologies:"Mongodb,Reactjs,Express,Nodejs,Css,api",
+      desc:"It is a full stack application which has a landing page along with login and register. When the user logs in he can search the food items with the ingredient name and view them",
       view:"https://github.com/PothalaJahnavi/Restaurant",
     },
     {
       title:"Advice",
       cover:advice,
-      desc:"This application generates random advices.It also includes api integration.",
-      view:"https://github.com/PothalaJahnavi/Advice/tree/master",
+      Technologies:"React,apis",
+      desc:"This application generates random advices.It is built using reactjs and apis",
+      view:"https://take-random-advice.netlify.app/",
     },
     {
       title:"Digital Clock",
       cover:digital,
+      Technologies:"Html,Css,Javascript",
       desc:"This shows us the current time,date and day.It is built using Java Script",
       view:"https://pothalajahnavi.github.io/clock.github.io/"
     },
     {
       title:"QR Code Generator",
       cover:qr,
-      desc:"It is an application built using Nodejs.It helps us to share data from one device to another using a qr code.",
+      Technologies:"Nodejs,Ejs",
+      desc:"It is an application helps us to share data from one device to another using a qr code.",
       view:"https://github.com/PothalaJahnavi/qr-code"
     },
     {
       title:"Target List",
       cover:target,
+      Technologies:"Mongodb,Ejs,Css,Express",
       desc:"It is a crud application built using MERN.We can set and delete our targets when completed",
       view:"https://github.com/PothalaJahnavi/Target",
     },
     {
       title:"Image Gallery",
       cover:gallery,
+      Technologies:"Reactjs,api,Css",
       desc:"It contains search functionality to search for images we wanted and we can also download them..",
       view:"https://lucent-crostata-2fd533.netlify.app/",
     },
@@ -57,6 +66,7 @@ const Projects = () => {
     {
       title:"Library Management System",
       cover:library,
+      Technologies:"Mongodb,Ejs,Express",
       desc:"It is a full stack application which helps students to search their books online.It also has an admin Login pannel where he can add update and delete the book list",
       view:"https://github.com/PothalaJahnavi/library",
   },
@@ -64,7 +74,13 @@ const Projects = () => {
     title:"Weather App",
     cover:weather,
     desc:"This helps us to Know the weather of any place.It is built using Reactjs.",
-    view:"https://github.com/PothalaJahnavi/weather/tree/master"
+    view:"https://any-place-weather-app.netlify.app/"
+  },
+  {
+    title:"Editor",
+    cover:editor,
+    desc:"This app works like a codeply. It helps us to write html , css and javascript code and see the output live.This app is built using reactjs and codemirror library",
+    view:"https://web-dev-editor.netlify.app/"
   }
   
   ]
@@ -72,7 +88,7 @@ const Projects = () => {
    <>
       <div className='projects'>
         <div className='container'>
-          <h1 style={{textAlign:"center",fontSize:"35px",color:" #3CCF4E",fontWeight:"800"}}>Projects</h1>
+          <h1 style={{textAlign:"center",fontSize:"35px",color:"orange",fontWeight:"800"}}>Projects</h1>
           <div className='content grid3'>
             {projects.map((item,index) => (
               <div className='box2' data-aos='flip-left'>
@@ -83,7 +99,7 @@ const Projects = () => {
                   <h3 data-aos='fade-right'>{item.title}</h3>
                   <p data-aos='fade-up-right'>{item.desc}</p>
                 </div>
-                <button className='project-btn'><a href={item.view}>View</a></button>
+                <button className='profile-button'><a href={item.view}>View</a></button>
               </div>
             ))}
           </div>

@@ -16,5 +16,11 @@
   line-height: 30px;
   margin: 20px 0;
   }
-
-  
+.about{
+  height: 100vh;
+}
+  @media screen and (max-width:768px){
+    .about{
+      height: auto;
+    }
+  }
