@@ -15,7 +15,7 @@ const Profiles = () => {
           name:"CodeChef",
           url:"https://www.codechef.com/users/jahnavi0405",
           problems:"364",
-          rating:"1625"
+          rating:"1630"
         },
         {
             icon:lc,

@@ -11,6 +11,7 @@ import weather from '../assets/weather.png';
 import editor from '../assets/editor.jpeg';
 import sorting from '../assets/sorting.png';
 import dashboard from '../assets/dashboard.png';
+import product from '../assets/product.png';
 import './Projects.css';
 const Projects = () => {
   const projects=[
@@ -21,10 +22,10 @@ const Projects = () => {
       view:"https://web-dev-editor.netlify.app/"
     },
     {
-      title:"Producr Zone",
-      cover:editor,
+      title:"Product Zone",
+      cover:product,
       desc:"Users can login,view products,add to cart,View cart items.Also implemented payment gateway using stripe.Only the admin will have the access to add new products along with their images which will be stored in the database as BASE64 string.",
-      view:"https://web-dev-editor.netlify.app/"
+      view:"https://github.com/PothalaJahnavi/ProductZone"
     },
     {
       title:"Sorting Visualizer",
