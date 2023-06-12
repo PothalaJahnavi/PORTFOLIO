@@ -4,9 +4,16 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import srchout from '../assets/srchout.png'
 import learnedze from '../assets/learnedze.jpg'
+import rajan from '../assets/rajan.png'
 import './Experience.css'
 const Experience = () => {
   const works=[
+    {
+      post:"Web Developer Intern",
+      image:rajan,
+      name:"Rajan Business Ideas",
+      text:"Built a single page web application for Rajan Business Ideas(Company main website) which is currently functional.Worked with the designer throughout the project.Worked on building webpages which includes a sidebar layout with various search filters,showing pdfs based on their filters.Worked with a team of 2 members."
+    },
     {
       post:"React Developer Intern",
       image:srchout,

@@ -9,10 +9,42 @@ import qr from '../assets/qr.jpg';
 import library from '../assets/library.png';
 import weather from '../assets/weather.png';
 import editor from '../assets/editor.jpeg';
-
+import sorting from '../assets/sorting.png';
+import dashboard from '../assets/dashboard.png';
 import './Projects.css';
 const Projects = () => {
   const projects=[
+    {
+      title:"Editor",
+      cover:editor,
+      desc:"This app works like a codeply. It helps us to write html , css and javascript code and see the output live.This app is built using reactjs and codemirror library",
+      view:"https://web-dev-editor.netlify.app/"
+    },
+    {
+      title:"Producr Zone",
+      cover:editor,
+      desc:"Users can login,view products,add to cart,View cart items.Also implemented payment gateway using stripe.Only the admin will have the access to add new products along with their images which will be stored in the database as BASE64 string.",
+      view:"https://web-dev-editor.netlify.app/"
+    },
+    {
+      title:"Sorting Visualizer",
+      cover:sorting,
+      desc:"This is a user friendly website which helps to visualize sorting algorithms like bubble sort,selection sort,insertion sort,quick sort,merge sort and heap sort.It includes the features to set the speed of the sorting,select the type of sorting which we wish to visualize and a button to generate new array when required.",
+      view:"https://visuals-123.netlify.app"
+    },
+    {
+      title:"Admin Dashboard",
+      cover:dashboard,
+      desc:"This is an admin dashboard with a sidebar to filter the data.I have used react echarts for displayong the charts. The dashboard can be viewed in both light mode and dark mode",
+      view:"https://64871bc5259410323fb1498d--extraordinary-pastelito-c666dd.netlify.app/"
+    },
+    {
+      title:"Library Management System",
+      cover:library,
+      Technologies:"Mongodb,Ejs,Express",
+      desc:"It is a full stack application which helps students to search their books online.It also has an admin Login pannel where he can add update and delete the book list",
+      view:"https://github.com/PothalaJahnavi/library",
+  },
     {
       title:"CRED Clone",
       cover:cred,
@@ -62,26 +94,14 @@ const Projects = () => {
       desc:"It contains search functionality to search for images we wanted and we can also download them..",
       view:"https://lucent-crostata-2fd533.netlify.app/",
     },
-    
-    {
-      title:"Library Management System",
-      cover:library,
-      Technologies:"Mongodb,Ejs,Express",
-      desc:"It is a full stack application which helps students to search their books online.It also has an admin Login pannel where he can add update and delete the book list",
-      view:"https://github.com/PothalaJahnavi/library",
-  },
+  
   {
     title:"Weather App",
     cover:weather,
     desc:"This helps us to Know the weather of any place.It is built using Reactjs.",
     view:"https://any-place-weather-app.netlify.app/"
   },
-  {
-    title:"Editor",
-    cover:editor,
-    desc:"This app works like a codeply. It helps us to write html , css and javascript code and see the output live.This app is built using reactjs and codemirror library",
-    view:"https://web-dev-editor.netlify.app/"
-  }
+  
   
   ]
   return (

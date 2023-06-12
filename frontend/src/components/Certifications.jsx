@@ -9,6 +9,8 @@ import css from "../assets/hk2.png";
 import py from "../assets/ln1.png";
 import jq from "../assets/ln2.png";
 import pyb from "../assets/sl.png";
+import icpc from '../assets/icpc.png'
+import udemy from '../assets/udemy.png';
 const Certifications = () => {
   const portfolio=[
     {
@@ -24,41 +26,52 @@ const Certifications = () => {
       title: "HTML",
     },
     {
-      id: 1,
+      id: 3,
       cover: dsa,
       category: "Achievement",
       title: "Data Structures And algorithms",
     },
     {
-      id: 1,
+      id: 3,
+      cover: icpc,
+      category: "Achievement",
+      title: "The 2022 ICPC Asia Amritapuri First Round Online Programming",
+    },
+    {
+      id: 4,
       cover: pyml,
       category: "Course",
       title:"Python For ML",
     },
     {
-      id: 1,
+      id: 5,
       cover: css,
       category: "Achievement",
       title: "Css",
     },
     {
-      id: 1,
+      id: 6,
       cover: py,
       category: "Course",
       title: "Python",
     },
     {
-      id: 1,
+      id: 7,
       cover: jq,
       category: "Course",
       title: "JQuery",
     },
     {
-      id: 1,
+      id: 8,
       cover: pyb,
       category: "Course",
       title: "Python For Beginers",
     },
+    {id: 8,
+    cover: udemy,
+    category: "Course",
+    title: "Full Stack Web Development",}
+  
 
   ]
   const allCategory = ["all", "Course","Achievement"]

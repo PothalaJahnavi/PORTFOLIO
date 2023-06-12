@@ -22,6 +22,7 @@
     "react-tags-canvas": "^1.0.1",
     "slick-carousel": "^1.8.1",
     "typewriter-effect": "^2.19.0",
+    "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
