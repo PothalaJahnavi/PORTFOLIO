@@ -1,0 +1,51 @@
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,10,113,1) 0%, rgba(6,38,133,1) 6%, rgba(0,212,255,1) 100%);
+    color: rgb(248, 250, 252);
+    overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .main-head{
+    font-size:15px;
+  }
+  section {
+    height: auto;
+    padding-top: 50px;
+  }
+  .flexsb,
+  .about .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .catButton{
+   display: flex;
+   flex-direction: column;
+  }
+  .right,
+  .left {
+    width: 100%;
+  }
+  .grid4,
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  article {
+    margin: 0;
+    padding-bottom: 50px;
+  }
+}
