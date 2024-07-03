@@ -5,20 +5,17 @@ import Profiles from '../Profiles'
 import Certifications from '../Certifications'
 import Experience from '../Experience'
 import Projects from '../Projects'
-import Contact from '../Contact'
 import Skills from '../Skills'
 const Main = () => {
   return (
     <>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Profiles/>
-      <Certifications/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
-      {/* <Footer/> */}
+      <Home />
+      <About />
+      <Skills />
+      <Profiles />
+      <Certifications />
+      <Experience />
+      <Projects />
     </>
   )
 }

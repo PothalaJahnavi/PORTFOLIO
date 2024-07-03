@@ -29,10 +29,10 @@ const Home = () => {
           <h1>
             <TypeWriter options={{ strings: ['Jahnavi', 'Programmer', 'Fullstack Developer', 'Mobile App Developer'], autoStart: true, loop: true }} />
           </h1>
-          <p data-aos='fade-left' style={{ color: "black", fontWeight: "700", fontSize: "20px" }}>
+          <p data-aos='fade-left' style={{ fontWeight: "700", fontSize: "20px" }}>
             A hard working Computer Science student passionate about programming and web designing.
           </p>
-          <button className='primaryBtn' data-aos='fade-up-right'><a href='https://drive.google.com/file/d/1TVF34jI45SsUVjzjP0ntclIFyMmggghn/view?usp=sharing' style={{ textDecoration: "none", color: "white" }}>
+          <button className='primaryBtn' data-aos='fade-up-right'><a href='https://drive.google.com/file/d/1cFH4RUdYWMYs23mZolG_E5GSTkq3mRtD/view?usp=sharing' style={{ textDecoration: "none", color: "white" }}>
             Download Resume</a></button>
         </div>
       </section>

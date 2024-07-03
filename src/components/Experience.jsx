@@ -13,7 +13,7 @@ const Experience = () => {
       post: "Full Stack Developer ",
       image: inncircles,
       name: "Inncircles",
-      text: "Collaborated on diverse projects, showcasing proficiency in MongoDB, Express.js, Angular, Node.js, and React Native frameworks. Applied problem-solving skills to deliver efficient and user-friendly solutions, solidifying a foundation for a dynamic career in full-stack development."
+      text: "Collaborated on diverse projects, showcasing proficiency in MongoDB, Express.js, Angular, Node.js, and React Native frameworks. Applied problem-solving skills to deliver efficient and user-friendly solutions, solidifying a foundation for a dynamic career in full-stack development.eveloped performant and complex ui components.Fixed production website bugs, improving stability and gaining Software Lifecycle insights."
     },
     {
       post: "Web Developer Intern",
@@ -49,7 +49,6 @@ const Experience = () => {
           <Slider {...settings}>
             {works.map((val) => (
               <div className='box'>
-
                 <p data-aos='zoom-out-down'>{val.text}</p>
                 <div className='img' data-aos='zoom-out-right'>
                   <img src={val.image} alt='' />

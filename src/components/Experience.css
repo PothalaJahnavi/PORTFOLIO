@@ -4,17 +4,19 @@
   justify-content: center;
   text-align: center;
 }
+
 .testimonials .box {
   max-width: 60%;
+  margin-bottom: 30px;
 }
+
 .testimonials i {
-  /* background-color: var(--white); */
   font-size: 20px;
   padding: 15px;
   margin: 30px 0;
   display: inline-block;
-  /* color: var(--primaryColor); */
 }
+
 .testimonials .img {
   display: flex;
   align-items: center;
@@ -23,8 +25,8 @@
   height: 120px;
   margin: auto;
   border-radius: 50%;
-  /* border: 3px solid var(--primaryColor); */
 }
+
 .testimonials img {
   width: 100px;
   height: 100px;
@@ -32,6 +34,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
 label {
   color: var(--primaryColor);
   margin: 10px 0;
