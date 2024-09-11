@@ -22,8 +22,8 @@ const Profiles = () => {
       icon: lc,
       name: "LeetCode",
       url: "https://leetcode.com/Pothala_Jahnavi/",
-      problems: "482",
-      rating: "1711"
+      problems: "514",
+      rating: "1890"
     },
     {
       name: "HackerEarth",
@@ -51,7 +51,7 @@ const Profiles = () => {
       name: "CodeForces",
       url: "https://codeforces.com/profile/POTHALA_JAHNAVI",
       problems: "100",
-      rating: "1098"
+      rating: "1185"
     },
     {
       icon: cs,
