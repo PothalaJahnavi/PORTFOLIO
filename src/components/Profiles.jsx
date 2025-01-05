@@ -22,30 +22,30 @@ const Profiles = () => {
       icon: lc,
       name: "LeetCode",
       url: "https://leetcode.com/Pothala_Jahnavi/",
-      problems: "514",
+      problems: "544",
       rating: "1890"
     },
-    {
-      name: "HackerEarth",
-      icon: he,
-      url: "https://www.hackerearth.com/@pothala5",
-      problems: "17",
-      rating: "1450"
-    },
-    {
-      icon: hr,
-      name: "HackerRank",
-      url: "https://www.hackerrank.com/20L31A05J0",
-      problems: "",
-      hacos: "24270"
-    },
-    {
-      icon: gfg,
-      name: "GeeksForGeeks",
-      url: "https://auth.geeksforgeeks.org/user/jahnavipothala15",
-      problems: "48",
-      rating: "70"
-    },
+    // {
+    //   name: "HackerEarth",
+    //   icon: he,
+    //   url: "https://www.hackerearth.com/@pothala5",
+    //   problems: "17",
+    //   rating: "1450"
+    // },
+    // {
+    //   icon: hr,
+    //   name: "HackerRank",
+    //   url: "https://www.hackerrank.com/20L31A05J0",
+    //   problems: "",
+    //   hacos: "24270"
+    // },
+    // {
+    //   icon: gfg,
+    //   name: "GeeksForGeeks",
+    //   url: "https://auth.geeksforgeeks.org/user/jahnavipothala15",
+    //   problems: "48",
+    //   rating: "70"
+    // },
     {
       icon: cf,
       name: "CodeForces",
@@ -53,13 +53,13 @@ const Profiles = () => {
       problems: "100",
       rating: "1185"
     },
-    {
-      icon: cs,
-      name: "CodeSignals",
-      url: "https://app.codesignal.com/profile/pothala_j",
-      problems: "29",
-      rating: ""
-    }
+    // {
+    //   icon: cs,
+    //   name: "CodeSignals",
+    //   url: "https://app.codesignal.com/profile/pothala_j",
+    //   problems: "29",
+    //   rating: ""
+    // }
   ];
 
   return (
